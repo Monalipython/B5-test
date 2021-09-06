@@ -6,3 +6,7 @@ import datetime
 def fun(request):
     msg = datetime.datetime.now()
     return render('base.html',context = {'msg':msg})
+
+
+    #This is for git practice
+    
